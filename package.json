@@ -1,10 +1,10 @@
 {
-  "name": "selectort-gu",
-  "version": "1.0.0",
+  "name": "react-elements-gu",
+  "version": "1.0.1",
   "description": "",
   "author": "Rukundo eric prestein",
   "license": "MIT",
-  "repository": "Rukundo eric prestein/selectort-gu",
+  "repository": "Rukundo eric prestein/react-elements-gu",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",

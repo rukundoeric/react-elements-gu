@@ -1,6 +1,6 @@
 {
-  "short_name": "selectort-gu",
-  "name": "selectort-gu",
+  "short_name": "react-elements-gu",
+  "name": "react-elements-gu",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",

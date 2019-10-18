@@ -1,6 +1,6 @@
 {
-  "name": "selectort-gu-example",
-  "homepage": "https://Rukundo eric prestein.github.io/selectort-gu",
+  "name": "react-elements-gu-example",
+  "homepage": "https://Rukundo eric prestein.github.io/react-elements-gu",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -14,7 +14,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "selectort-gu": "link:.."
+    "react-elements-gu": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Selector from 'selectort-gu'
+import Selector from 'react-elements-gu'
 
 export default class App extends Component {
   render () {

@@ -6822,6 +6822,10 @@ react-dom@^16.4.1:
     prop-types "^15.6.2"
     scheduler "^0.16.2"
 
+"react-elements-gu@link:..":
+  version "0.0.0"
+  uid ""
+
 react-error-overlay@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.1.tgz#417addb0814a90f3a7082eacba7cee588d00da89"
@@ -7397,10 +7401,6 @@ select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
   integrity sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo=
-
-"selectort-gu@link:..":
-  version "0.0.0"
-  uid ""
 
 selfsigned@^1.9.1:
   version "1.10.7"

@@ -1,4 +1,4 @@
-# selectort-gu
+# react-elements-gu
 
 > 
 
@@ -9,7 +9,7 @@
 ## Install
 
 ```bash
-npm install --save selectort-gu
+npm install --save react-elements-gu
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install --save selectort-gu
 ```jsx
 import React, { Component } from 'react'
 
-import Selector from 'selectort-gu'
+import Selector from 'react-elements-gu'
 
 export default class App extends Component {
   render () {
