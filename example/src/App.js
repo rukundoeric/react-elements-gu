@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Selector from 'react-elements-gu'
+import { Selector } from 'react-elements-gu'
 
 export default class App extends Component {
   render () {
@@ -92,7 +92,7 @@ export default class App extends Component {
             name="Name"
             label="Name"
             items={items}
-            addNewItem={true}
+            addNewItem
             addNewItemCaption={"Add new Category"}
             theme={theme}
             onAddNewItem={handleAddNewItem}

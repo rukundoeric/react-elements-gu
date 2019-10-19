@@ -17,7 +17,7 @@ npm install --save react-elements-gu
 ```jsx
 import React, { Component } from 'react'
 
-import Selector from 'react-elements-gu'
+import { Selector } from 'react-elements-gu'
 
 export default class App extends Component {
   render () {

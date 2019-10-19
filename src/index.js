@@ -10,7 +10,7 @@ import {
 } from '@material-ui/core/styles'
 import { styles } from './defaultStyle'
 
-class Selector extends Component {
+export class Selector extends Component {
   static propTypes = {
     name: PropTypes.string.isRequired,
     label: PropTypes.string.isRequired,
@@ -122,5 +122,3 @@ class Selector extends Component {
     )
   }
 }
-
-export default Selector
