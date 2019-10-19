@@ -2,7 +2,7 @@
 
 > 
 
-[![NPM](https://img.shields.io/npm/v/selectort-gu.svg)](https://www.npmjs.com/package/selectort-gu) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-elements-gu.svg)](https://www.npmjs.com/package/react-elements-gu) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ![Image](https://firebasestorage.googleapis.com/v0/b/moodsapp-ad905.appspot.com/o/Images%2Fezgif.com-video-to-gif.gif?alt=media&token=48b72ad9-2170-4001-bc8f-54062adf39ff)
 
