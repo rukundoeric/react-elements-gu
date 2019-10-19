@@ -71,7 +71,7 @@ class Selector extends Component {
     const { isItemsOpen, value, isSearching, searchResults } = this.state
     const TextFieldTheme = createMuiTheme({palette: theme.palette})
     return (
-      <div style={{marginLeft: '400px', marginTop: '50px'}}>
+      <div>
         <form>
           <Grid item>
             <ThemeProvider theme={TextFieldTheme}>
