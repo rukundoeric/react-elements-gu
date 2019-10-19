@@ -122,3 +122,4 @@ export class Selector extends Component {
     )
   }
 }
+export default Selector

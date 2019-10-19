@@ -92,7 +92,7 @@ export default class App extends Component {
             name="Name"
             label="Name"
             items={items}
-            addNewItem
+            addNewItem={false}
             addNewItemCaption={"Add new Category"}
             theme={theme}
             onAddNewItem={handleAddNewItem}
