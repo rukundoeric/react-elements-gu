@@ -4,10 +4,6 @@ import { Grid, TextField } from '@material-ui/core'
 import InputAdornment from '@material-ui/core/InputAdornment'
 import ArrowDropDown from '@material-ui/icons/ArrowDropDown'
 import { ManageItems } from './ManageItems'
-import {
-  ThemeProvider,
-  createMuiTheme
-} from '@material-ui/core/styles'
 import { styles } from './defaultStyle'
 
 export class Selector extends Component {
@@ -69,56 +65,49 @@ export class Selector extends Component {
       theme
     } = this.props
     const { isItemsOpen, value, isSearching, searchResults } = this.state
-    const TextFieldTheme = createMuiTheme({palette: theme.palette})
     return (
-      <div>
-        <form>
-          <Grid item>
-            <ThemeProvider theme={TextFieldTheme}>
-              <TextField
-                style={styles(theme).textField}
-                onChange={(e) => {
-                  onChange(e)
-                  this.handleTextChanges(e)
-                }}
-                onClick={this.handleOpenItems}
-                type='text'
-                label={label}
-                name={name}
-                autoComplete='off'
-                value={value}
-                fullWidth
-                InputProps={{
-                  endAdornment: (
-                    <InputAdornment position='start'>
-                      <ArrowDropDown
-                        style={styles(theme).dropDownIcon}
-                      />
-                    </InputAdornment>
-                  )
-                }}
-              />
-            </ThemeProvider>
+      <Grid item>
+        <TextField
+          style={styles(theme).textField}
+          onChange={(e) => {
+            onChange(e)
+            this.handleTextChanges(e)
+          }}
+          onClick={this.handleOpenItems}
+          type='text'
+          label={label}
+          name={name}
+          autoComplete='off'
+          value={value}
+          fullWidth
+          InputProps={{
+            endAdornment: (
+              <InputAdornment position='start'>
+                <ArrowDropDown
+                  style={styles(theme).dropDownIcon}
+                />
+              </InputAdornment>
+            )
+          }}
+        />
 
-            {isItemsOpen && (
-              <ManageItems
-                handleAddNewItem={onAddNewItem}
-                handleCustomerPopperClickAway={this.handleClodeItems}
-                items={!isSearching ? items : searchResults}
-                handleClodeItems={this.handleClodeItems}
-                handleSelectionItem={(e) => {
-                  onItemSelected(e)
-                  this.handleSelectionItem(e)
-                }}
-                addNewItem={addNewItem || false}
-                addNewItemCaption={addNewItemCaption}
-                theme={theme}
-              />
-            )}
-          </Grid>
-        </form>
+        {isItemsOpen && (
+          <ManageItems
+            handleAddNewItem={onAddNewItem}
+            handleCustomerPopperClickAway={this.handleClodeItems}
+            items={!isSearching ? items : searchResults}
+            handleClodeItems={this.handleClodeItems}
+            handleSelectionItem={(e) => {
+              onItemSelected(e)
+              this.handleSelectionItem(e)
+            }}
+            addNewItem={addNewItem || false}
+            addNewItemCaption={addNewItemCaption}
+            theme={theme}
+          />
+        )}
+      </Grid>
 
-      </div>
     )
   }
 }
